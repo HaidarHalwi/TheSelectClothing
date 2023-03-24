@@ -1,0 +1,181 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+body{
+	background-color: #1E1E1E;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.list{
+	position: fixed;
+	right: 0px;
+}
+
+.list ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	float: right;
+}
+
+.list a{
+	font-family: arial;
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.list a:hover{
+	background-color: #1DF13F;
+	color: black;
+	padding: 9px;
+	border-radius: 40px;
+	box-shadow: 0px 0px 30px 5px green;
+}
+
+.judul h1{
+	font-family: fantasy;
+	font-weight: 100;
+	font-size: 70px;
+	letter-spacing: 5px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px 10px green;
+}
+
+p{
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	letter-spacing: 3px;
+	color: whitesmoke;
+}
+
+.container{
+	width: 1090px;  
+	margin: auto;
+	padding: 11px;
+}
+
+.kotak {
+	display: inline-block;
+	font-family: arial;
+	font-weight: bold;
+	width: 160px;
+	height: 60px;
+	background-color: #1A1C1B;
+	border: 2px solid #1DF13F;
+	margin: 50px;
+	box-shadow: 0px 0px 30px 5px green;
+	border-radius: 999px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 15px;
+}
+
+.kotak a{
+	text-decoration: none;
+	color: #1DF13F;
+}
+
+.kotak:hover{
+	background-color: black;
+}
+
+.pendahuluan h1{
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: whitesmoke;
+	letter-spacing: 10px;
+	text-shadow: 2px 2px 10px green;
+}
+
+hr{
+	width: 800px;
+}
+
+.kaos h1{
+	font-family: fantasy;
+	font-weight: 100;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px 10px green;
+}
+
+.kaos img{
+	width: 200px;
+	margin-left: 90px;
+}
+
+.box{
+	margin-left: 130px;
+	width: 170px;
+	height: 40px;
+	background-color: #1DF13F;
+	border-radius: 999px;
+	box-shadow: 0px 0px 30px 5px green;
+	color: black;
+	font-family: arial;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	display: inline-block;
+ 	margin-left: 110px;
+ 	padding-left: 7px;
+}
+
+.kaos2 img{
+	width: 200px;
+	margin-left: 90px;
+}
+
+.box1{
+	margin-left: 130px;
+	width: 170px;
+	height: 40px;
+	background-color: #1DF13F;
+	border-radius: 999px;
+	box-shadow: 0px 0px 30px 5px green;
+	color: black;
+	font-family: arial;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	display: inline-block;
+ 	margin-left: 110px;
+ 	padding-left: 7px;
+}
+
+.about h1{
+	text-align: center;
+	color: whitesmoke;
+	font-family: fantasy;
+	text-shadow: 2px 2px 10px green;
+	letter-spacing: 5px;
+	font-size: 50px;
+}
+
+hr{
+	width: 800px;
+}
+
+.about pre{
+	color: whitesmoke;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3px;
+}
