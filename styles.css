@@ -5,7 +5,7 @@
 }
 
 body{
-	background-color: #1E1E1E;
+	background-image: url(nn.png);
 }
 
 html{
@@ -15,6 +15,20 @@ html{
 .list{
 	position: fixed;
 	right: 0px;
+	top: -10px;
+	position: fixed;
+	left: 0px;
+	height: 80px;
+	background-color: black;
+	border-bottom: 3px solid #1DF13F;
+	z-index: 9990px;
+}
+
+.list .tab h3{
+	color: whitesmoke;
+	font-family: Arial;
+	font-size: 40px;
+	margin-top: 20px;
 }
 
 .list ul li{
