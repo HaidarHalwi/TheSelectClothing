@@ -10,6 +10,7 @@ body{
 
 html{
 	scroll-behavior: smooth;
+
 }
 
 .list{
@@ -64,6 +65,10 @@ html{
 	text-shadow: 2px 2px 10px green;
 }
 
+#home{
+		scroll-margin: 150px;
+}
+
 p{
 	text-align: center;
 	font-weight: bold;
@@ -111,6 +116,7 @@ p{
 	color: whitesmoke;
 	letter-spacing: 10px;
 	text-shadow: 2px 2px 10px green;
+	scroll-margin: 150px;
 }
 
 hr{
@@ -125,6 +131,22 @@ hr{
 	text-align: center;
 	color: whitesmoke;
 	text-shadow: 2px 2px 10px green;
+}
+
+.card-baju{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.pembungkus{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#kaos{
+		scroll-margin: 150px;
 }
 
 .kaos img{
@@ -155,23 +177,6 @@ hr{
 	margin-left: 90px;
 }
 
-.box1{
-	margin-left: 130px;
-	width: 170px;
-	height: 40px;
-	background-color: #1DF13F;
-	border-radius: 999px;
-	box-shadow: 0px 0px 30px 5px green;
-	color: black;
-	font-family: arial;
-	line-height: 40px;
-	text-align: center;
-	font-weight: bold;
-	letter-spacing: 4px;
-	display: inline-block;
- 	margin-left: 110px;
- 	padding-left: 7px;
-}
 
 .about h1{
 	text-align: center;
@@ -180,6 +185,10 @@ hr{
 	text-shadow: 2px 2px 10px green;
 	letter-spacing: 5px;
 	font-size: 50px;
+}
+
+#tentang{
+		scroll-margin: 150px;
 }
 
 hr{
